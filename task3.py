@@ -13,11 +13,11 @@ Enter the fift price: 7.99
 Your subtotal is $63.71 and your taxes total $7.65 for a total of $71.36
 
 """
-first= float(input("enter the amount"))
-second=float(input("enter the amount"))
-third= float(input("enter the amount"))
-fourth=float(input("enter the amount"))
-fifth= float(input("enter the amount"))
+first= float(input("enter the amount: "))
+second=float(input("enter the amount: "))
+third= float(input("enter the amount: "))
+fourth=float(input("enter the amount: "))
+fifth= float(input("enter the amount: "))
 subtotal= (first)+(second)+(third)+(fourth)+(fifth)
 taxes=subtotal*0.12
 total = subtotal+taxes
