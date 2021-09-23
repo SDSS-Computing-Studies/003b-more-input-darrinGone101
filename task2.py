@@ -10,8 +10,9 @@ Enter the rate of growth in percent: 2.1
 Enter the number of days: 12
 There will be 25017087 people after 12 days
 """
-population= float(input("enter the population"))
-growth= float(input("enter the growth in percent"))
-days= float(input("enter the number of days"))
-fpop= (population) *(1+growth) ** (days)
-print(fpop)
+population = float( input("Enter The  Population: "))
+rgrowth = float( input("Enter The Rate of Growth: "))
+time = int( input("Enter The Number of Days: "))
+fpop = population*(1+ (rgrowth/100))**(time / 365)
+fpop = round(fpop)
+print(f"There will be {fpop} people after {time} days")

@@ -23,4 +23,4 @@ taxes=subtotal*0.12
 total = subtotal+taxes
 taxes=round(taxes,2)
 total=round(total,2)
-print(f"your subtotal is ${subtotal}and your taxes total ${taxes}of a total of ${taxes}")
+print(f"your subtotal is ${subtotal} and your taxes total ${taxes} of a total of ${total}")
